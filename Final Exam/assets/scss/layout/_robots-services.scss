@@ -1,0 +1,50 @@
+#robots-services{
+    margin-top: 80px;
+    background-image: url(/assets/images/feature-bg\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+
+    .robots-services-card{
+        background-color: white;
+        margin: 25px;
+        padding: 20px 30px;
+        border-radius: 8px;
+        width: 350px;
+    }
+
+    .robot-products-title{
+        color: white;
+        padding-top: 70px;
+    }
+    .icon-text{
+        display: flex;
+        column-gap: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width:576px){
+#robots-services{
+    height: 220vh;
+
+    .robots-services-card{
+        margin: 25px;
+        padding: 20px 30px;
+        border-radius: 8px;
+        width: 300px;
+    }
+    h6{
+        font-size: 12px;
+    }
+
+    .icon-text{
+        margin-left: 30px;
+    }
+
+}
+    
+}

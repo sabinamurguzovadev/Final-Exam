@@ -1,0 +1,47 @@
+#news-blog{
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+
+    .news-blog-title{
+      h6{
+        color: #A5948C;
+      }
+    }
+
+    img{
+        margin-top: 60px;
+    }
+
+    button{
+        border: none;
+        background-color: transparent;
+        margin-top: 20px;
+        width: 80px;
+        background-color: #8B90FF;
+        height: 5vh;
+        color: white;
+        &:hover{
+            background-color: transparent;
+            color: black;
+        }
+    }
+    h5{
+        margin-top: 30px;
+    }
+    p,h5{
+        color: #A5948C;
+
+    }
+}
+
+@media only screen and (max-width:576px){
+    #news-blog{
+        h6{
+            font-size: 13px;
+        }
+        img{
+            width: 350px;
+        }
+    }
+        
+    }
